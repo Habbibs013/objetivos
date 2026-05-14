@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@400;700&family=Poppins&display=swap');
 
 :root{
-    --cor-de-fundo: #301d1d;
-    --verde: #6FFF57;
+    --cor-de-fundo: #0f0c1c;
+    --roxo: #8755ea;
     --branco: #e4dddd;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58, 55, 94, 0.5);
@@ -32,7 +32,7 @@ body {
     font-size: 32px;
 }
 .titulo-principal span {
-    color: var(--verde);
+    color: var(--roxo);
 }
 .botao {
     font-family: "Crakra Petch", sans-serif;
@@ -58,7 +58,7 @@ body {
 
 .botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
+    border-bottom: 4px solid var(--roxo);
 }
 
 .abas-textos{
@@ -80,7 +80,7 @@ body {
 }
 .aba-conteudo-titulo-secundario{
     text-align: center;
-    color: var(--verde);
+    color: var(--roxo);
     text-transform: uppercase;
 }
 
